@@ -72,14 +72,29 @@ public:
             return false;
         }
     }
+
+    // print function to display
+    void print()
+    {
+        cout << "The stack list is :";
+        for (int i = 0; i < size; i++)
+        {
+            cout << arr[i] << " ";
+        }
+        cout << "  " << endl;
+    }
 };
 int main()
 {
     Stack st(5);
     st.push(34);
-    st.push(34);
-    st.push(34);
+    st.push(356);
+    st.push(39);
+    st.push(90);
+    st.push(56);
+    st.print();
 
+    st.pop();
     cout << "top is:" << st.peek();
     return 0;
 }
