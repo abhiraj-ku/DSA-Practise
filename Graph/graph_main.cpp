@@ -17,7 +17,7 @@ int main()
     return 0; // space= n*n
 }
 
-// 2. this is matrix representation of graph (adjacency list)
+// 2. this is adjacency list representation of graph (adjacency list)
 #include <iostream>
 using namespace std;
 int main()
